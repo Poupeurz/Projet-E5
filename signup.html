@@ -31,23 +31,27 @@
         
         <h2>Enregistrement</h2>
   
-        <form action="" method="post" class="form">
+        <form action="php/register.php" method="post" class="form">
   
           <div class="form__field">
-            <input type="email" placeholder="info@mail.com">
-          </div><br>
-  
-          <div class="form__field">
-            <input type="password" placeholder="••••••••••••">
+            <input type="text" name="username" placeholder="Nom d'utilisateur" required>
           </div><br>
 
           <div class="form__field">
-            <input type="submit" value="Creation">
+            <input type="email" name="email" placeholder="info@mail.com" required>
+          </div><br>
+  
+          <div class="form__field">
+            <input type="password" name="password" placeholder="••••••••••••" required>
+          </div><br>
+
+          <div class="form__field">
+            <input type="submit" value="Création">
           </div>
   
         </form>
   
-        <p>Vous avez deja un compte ? <a href="login.html">Se connecter</a></p>
+        <p>Vous avez déjà un compte ? <a href="login.html">Se connecter</a></p>
   
       </div>
   
@@ -55,4 +59,3 @@
   
   </body>
   </html>
-  

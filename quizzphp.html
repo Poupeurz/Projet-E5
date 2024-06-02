@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz PHP</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/quizz.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+</head>
+<body>
+    <!-- Header -->
+
+    <header id="myHeader">
+            <div class="boxed">
+                <div class="flex aligncenter space-between">
+                    <button class="header-menu-mobile">
+                        <span class="material-icons menu-icon">menu</span>
+                    </button>
+                    <a class="header-logo" href="#accueil">
+                        <img src="img/kaf.png">
+                    </a>
+                    <ul class="header-menu">
+                        <li><a href="accueil.html">Accueil</a></li>
+                        <li><a href="devhtml.html">HTML</a></li>
+                        <li><a href="devcss.html">CSS</a></li>
+                        <li><a href="devphp.html">PHP</a></li>
+                        <li><a href="product">JS</a></li>
+                        <li class="material-symbols-outlined"><a href="login.html">account_circle</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+<!-- Header -->
+
+    <h1>Quiz PHP</h1>
+<form class="center boxed " action="php/submit.php" method="post">
+        <input type="hidden" name="quiz_id" value="3">
+        <div>
+            <label for="username">Votre nom:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+        </div>
+        <div>
+            <label for="question3_1">Quelle est la différence entre include et require en PHP ?</label><br>
+            <input type="text" id="question3_1" name="question3_1" required><br>
+        </div>
+        <div>
+            <label for="question3_2">Expliquez ce qu'est une session en PHP.</label><br>
+            <input type="text" id="question3_2" name="question3_2" required><br>
+        </div>
+        <div>
+            <label for="question3_3">À quoi sert la fonction var_dump() en PHP ?</label><br>
+            <input type="text" id="question3_3" name="question3_3" required><br>
+        </div>
+        <div>
+            <label for="question3_4">Expliquez la différence entre les méthodes GET et POST en PHP.</label><br>
+            <input type="text" id="question3_4" name="question3_4" required><br>
+        </div>
+        <div>
+            <label for="question3_5">Qu'est-ce que PDO en PHP ?</label><br>
+            <input type="text" id="question3_5" name="question3_5" required><br>
+        </div><br>
+        <input type="submit" value="Soumettre">
+    </form>
+</body>
+</html>

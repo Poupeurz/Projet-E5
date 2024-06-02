@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Introduction CSS</title>
+    <meta name="description" content="Introduction HTML" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+
+<!-- Header -->
+
+
+<body>
+    <header id="myHeader">
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button class="header-menu-mobile">
+                    <span class="material-icons menu-icon">menu</span>
+                </button>
+                <a class="header-logo" href="#accueil">
+                    <img src="img/kaf.png">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="devhtml.html">HTML</a></li>
+                    <li><a href="devcss.html">CSS</a></li>
+                    <li><a href="devphp.html">PHP</a></li>
+                    <li><a href="devjs.html">JS</a></li>
+                    <li class="material-symbols-outlined"><a href="login.html">account_circle</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider" id="accueil">
+        <img class="slider-background" src="img/slider.jpg">
+        <div class="slider-content">
+            <h1>Formation Devellopement </h1>
+            <p>Introduction au css</p>
+        </div>
+    </div>
+
+<!-- Header -->
+
+<!-- About -->
+
+    <div class="section" id="a-propos">
+        <div class="boxed">
+            <div class="flex toColumn mCenter">
+                <div class="w20 wm100">
+                    <h2>Le CSS c'est quoi ?</h2>
+                </div>
+                <div class="w40 wm100">
+                    <p>CSS (Cascading Style Sheets) est un langage de feuilles de style utilisé pour décrire la présentation d'un document HTML. Il permet de contrôler l'apparence et la mise en forme des éléments d'une page Web.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- About -->
+
+
+<!-- Skills -->
+
+<div class="section dark" id="competences">
+    <div class="boxed center">
+        <h2>Quelques notion de bases</h2>
+        <div class="flex toColumn gap20">
+            <div class="w25 wm100 skill">
+                <img id="myImg" src="img/CSS/Selecteurs.PNG" alt="Sélecteurs " class="clickable">
+                <h3>Sélecteurs</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img id="myImg" src="img/CSS/Valeurs.PNG" alt="Propriétés et valeurs" class="clickable">
+                <h3>Propriétés et valeurs</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img id="myImg" src="img/CSS/box.PNG" alt="Box Model" class="clickable">
+                <h3>Box Model</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img id="myImg" src="img/CSS/mesure.PNG" alt="Unités de mesure" class="clickable">
+                <h3>Unités de mesure</h3>
+            </div>
+        </div>
+    </div>
+    <div class="flex gap20">
+            <div class="boxed center w25 wm100 skill2">
+                <img id="myImg" src="img/CSS/flexbox.PNG" alt="Flexbox" class="clickable">
+                <h3>Flexbox</h3>
+            </div>
+    </div>
+</div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content modal-content-centered"></div>
+            <img class="modal-content" id="img01">
+            <div id="caption" class="modal-caption"></div>
+    </div>
+
+<!-- Skills -->
+
+<div class="product-columns center dark " id="product">
+    <div class="devis-column">
+        <h5>Les bases de CSS
+        </h5>
+        <ul>
+            <li class="material-symbols-outlined icon">forum</li><br>
+            <li>Sélecteurs : Les sélecteurs CSS permettent de cibler les éléments HTML auxquels vous souhaitez appliquer des styles. Par exemple, h1 cible tous les éléments <h1></li>
+            <li>Propriétés et valeurs : Les propriétés CSS définissent les aspects que vous souhaitez styliser, comme la couleur, la taille ou la police du texte. Les valeurs sont les paramètres que vous attribuez à ces propriétés.</li>
+            <li>Déclaration : Une déclaration CSS associe une propriété à une valeur. Par exemple, color: blue; définira la couleur du texte en bleu.</li>
+            <li>img : Balise pour insérer une image.</li>
+            <li>ul et ol : Balises pour créer des listes non ordonnées (à puces) et ordonnées (numérotées), respectivement.</li><br>
+            <li>li: Élément de liste utilisé à l'intérieur des balises ul ou ol.</li><br>
+        </ul>
+    </div>
+</div>
+<!-- Carousel -->
+
+<div class="section" id="realisations">
+    <div class="boxed center">
+        <h2>Realisation</h2>
+        <div class="flex wrap gap20 space-between center">
+            <div class="w32 wm47 realisation">
+                <img src="img/CSS/Exemple1-1.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+            <div class="w32 wm47 realisation">
+                <img src="img/CSS/Exemple2-1.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+            <div class="w32 wm47 realisation">
+                <img src="img/CSS/Exemple3-1.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+            <div class="w32 wm47 realisation">
+                <img src="img/CSS/Exemple4-1.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="carousel1" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/CSS/Exemple1-1.PNG" alt="Exemple">
+            <img class="carousel-image" src="img/CSS/Exemple1-2.PNG" alt="Exemple">
+        </div>
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+
+<div id="carousel2" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/CSS/Exemple2-1.PNG" alt="Exemple">
+            <img class="carousel-image" src="img/CSS/Exemple2-2.PNG" alt="Exemple">
+        </div>
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+
+<div id="carousel3" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/CSS/Exemple3-1.PNG" alt="Exemple">
+            <img class="carousel-image" src="img/CSS/Exemple3-2.PNG" alt="Exemple">
+        </div>
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+
+<div id="carousel4" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/CSS/Exemple4-1.PNG" alt="Exemple">
+            <img class="carousel-image" src="img/CSS/Exemple4-2.PNG" alt="Exemple">
+        </div>
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+
+<!-- Carousel -->
+
+
+<!-- Product -->
+
+    <div class="product-columns center dark" id="product">
+        <div class="analyse-column">
+            <h5>Quizz</h5>
+            <ul>
+                <li class="material-symbols-outlined icon">clinical_notes</li><br>
+                <li>C'est l'heure du quizz !</li>
+                <li>Cela sert juste a situer votre niveau</li><br>
+                <li><a href="quizzcss.html"><button class="contact-button" type="button">Quizz</button></a></li>
+            </ul>
+        </div>
+    </div>
+
+<!-- Product -->
+
+<!-- Footer D -->
+
+    <footer>
+        <div class="footer-columns center" id="contact">
+            <div class="useful-links-column dark">
+                <h5>Liens Utiles</h5>
+                <ul>
+                    <li><a href="#accueil.html">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#realisations">Réalisations</a></li>
+                    <li><a href="#product">Produit</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+    </footer>
+
+<!-- Footer D-->
+
+    <script src="js/app.js"></script>
+</body>
+</html>

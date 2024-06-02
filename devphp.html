@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Introduction PHP</title>
+    <meta name="description" content="Introduction PHP" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+
+<!-- Header -->
+
+<body>
+    <header id="myHeader">
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button class="header-menu-mobile">
+                    <span class="material-icons menu-icon">menu</span>
+                </button>
+                <a class="header-logo" href="#accueil">
+                    <img src="img/kaf.png" alt="Logo">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="accueil.html">accueil</a></li>
+                    <li><a href="devhtml.html">HTML</a></li>
+                    <li><a href="devcss.html">CSS</a></li>
+                    <li><a href="devphp.html">PHP</a></li>
+                    <li><a href="devjs.html">JS</a></li>
+                    <li class="material-symbols-outlined"><a href="login.html">account_circle</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider" id="accueil">
+        <img class="slider-background" src="img/slider.jpg" alt="Slider">
+        <div class="slider-content">
+            <h1>Formation Développement</h1>
+            <p>Introduction au PHP</p>
+        </div>
+    </div>
+
+<!-- Header -->
+
+<!-- About -->
+
+    <div class="section" id="a-propos">
+        <div class="boxed">
+            <div class="flex toColumn mCenter">
+                <div class="w20 wm100">
+                    <h2>Le PHP, c'est quoi ?</h2>
+                </div>
+                <div class="w40 wm100">
+                    <p>PHP: Hypertext Preprocessor est un langage orienté objet principalement utilisé pour la communication côté serveur. Il peut gérer diverses fonctions côté serveur, telles que la collecte de données de formulaires, la gestion de fichiers sur le serveur, la modification de bases de données, etc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- About -->
+
+
+
+<!-- Skills -->
+
+    <div class="section dark" id="competences">
+        <div class="boxed center">
+            <h2>Quelques notions de base</h2>
+            <div class="flex toColumn gap20">
+                <div class="w25 wm100 skill">
+                    <img id="myImg" src="img/PHP/hello_world.png" alt="Hello World en PHP" class="clickable">
+                    <h3>Hello World</h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img id="myImg2" src="img/PHP/variables.png" alt="Variables PHP" class="clickable">
+                    <h3>Variables</h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img id="myImg3" src="img/PHP/conditions.png" alt="Conditions PHP" class="clickable">
+                    <h3>Conditions</h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img id="myImg4" src="img/PHP/boucles.png" alt="Boucles PHP" class="clickable">
+                    <h3>Boucles</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content modal-content-centered"></div>
+            <img class="modal-content" id="img01">
+            <div id="caption" class="modal-caption"></div>
+    </div>
+
+<!-- Skills -->
+
+
+<div class="product-columns center dark" id="product">
+    <div class="devis-column ">
+        <h5>Quelques concepts courants</h5>
+        <ul>
+            <li class="material-symbols-outlined icon">forum</li><br>
+            <li>Écho : La fonction <code>echo</code> est utilisée pour afficher des sorties.</li>
+            <li>Variables : En PHP, les variables sont déclarées avec le symbole $ suivi du nom de la variable.</li>
+            <li>Conditions : Les structures conditionnelles permettent d'exécuter du code différemment en fonction de conditions spécifiques. Par exemple, <code>if</code>, <code>else</code>, et <code>elseif</code>.</li>
+            <li>Boucles : Les boucles permettent de répéter du code plusieurs fois. Par exemple, <code>for</code>, <code>while</code>, et <code>foreach</code>.</li>
+            <li>Fonctions : Les fonctions en PHP sont créées avec le mot-clé <code>function</code> suivi du nom de la fonction et de parenthèses.</li>
+            <li>Inclusion de fichiers : Utilisez <code>include</code> ou <code>require</code> pour inclure des fichiers PHP externes dans votre script.</li>
+            <li>Gestion des formulaires : PHP permet de traiter les données des formulaires HTML en utilisant les superglobales <code>$_GET</code> et <code>$_POST</code>.</li><br>
+        </ul>
+    </div>
+</div>
+
+<!-- Carousel -->
+
+<div class="section" id="realisations">
+    <div class="boxed center">
+        <h2>Realisation</h2>
+        <div class="flex wrap gap20 space-between center">
+            <div class="w32 wm47 realisation">
+                <img src="img/CSS/Exemple1-1.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+            <div class="w32 wm47 realisation">
+                <img src="img/CSS/Exemple2-1.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+            <div class="w32 wm47 realisation">
+                <img src="img/CSS/Exemple3-1.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+            <div class="w32 wm47 realisation">
+                <img src="img/CSS/Exemple4-1.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="carousel1" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/CSS/Exemple1-1.PNG" alt="Exemple">
+            <img class="carousel-image" src="img/CSS/Exemple1-2.PNG" alt="Exemple">
+        </div>
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+
+<div id="carousel2" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/CSS/Exemple2-1.PNG" alt="Exemple">
+            <img class="carousel-image" src="img/CSS/Exemple2-2.PNG" alt="Exemple">
+        </div>
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+
+<div id="carousel3" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/CSS/Exemple3-1.PNG" alt="Exemple">
+            <img class="carousel-image" src="img/CSS/Exemple3-2.PNG" alt="Exemple">
+        </div>
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+
+<div id="carousel4" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/CSS/Exemple4-1.PNG" alt="Exemple">
+            <img class="carousel-image" src="img/CSS/Exemple4-2.PNG" alt="Exemple">
+        </div>
+    </div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+</div>
+
+<!-- Carousel -->
+
+
+<!-- Quizz -->
+
+    <div class="product-columns center dark" id="product">
+        <div class="analyse-column">
+            <h5>Quizz</h5>
+            <ul>
+                <li class="material-symbols-outlined icon">clinical_notes</li><br>
+                <li>C'est l'heure du quizz !</li>
+                <li>Cela sert juste à situer votre niveau</li><br>
+                <li><a href="quizzphp.html"><button class="contact-button" type="button">Quizz</button></a></li>
+            </ul>
+        </div>
+    </div>
+
+<!-- Quizz -->
+
+<!-- Footer -->
+
+    <footer>
+        <div class="footer-columns center" id="contact">
+            <div class="useful-links-column dark">
+                <h5>Liens Utiles</h5>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#realisations">Réalisations</a></li>
+                    <li><a href="#product">Produit</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+    </footer>
+
+<!-- Footer -->
+
+    <script src="js/app.js"></script>
+</body>
+</html>

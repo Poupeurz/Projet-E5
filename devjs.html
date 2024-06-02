@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Introduction CSS</title>
+    <meta name="description" content="Introduction HTML" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+
+<!-- Header -->
+
+
+<body>
+    <header id="myHeader">
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button class="header-menu-mobile">
+                    <span class="material-icons menu-icon">menu</span>
+                </button>
+                <a class="header-logo" href="#accueil">
+                    <img src="img/kaf.png">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="accueil.html">accueil</a></li>
+                    <li><a href="devhtml.html">HTML</a></li>
+                    <li><a href="devcss.html">CSS</a></li>
+                    <li><a href="devphp.html">PHP</a></li>
+                    <li><a href="devjs.html">JS</a></li>
+                    <li class="material-symbols-outlined"><a href="login.html">account_circle</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider" id="accueil">
+        <img class="slider-background" src="img/slider.jpg">
+        <div class="slider-content">
+            <h1>Formation Devellopement </h1>
+            <p>IIntroduction à JavaScript</p>
+        </div>
+    </div>
+
+<!-- Header -->
+
+<!-- About -->
+
+    <div class="section" id="a-propos">
+        <div class="boxed">
+            <div class="flex toColumn mCenter">
+                <div class="w20 wm100">
+                    <h2>Le JavaScript c'est quoi ?</h2>
+                </div>
+                <div class="w40 wm100">
+                    <p>JavaScript est un langage de programmation utilisé pour rendre les pages Web interactives. Il peut être utilisé pour manipuler le contenu HTML, modifier le style des éléments, réagir aux événements utilisateur et bien plus encore.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- About -->
+
+
+<!-- Skills -->
+
+    <div class="section dark" id="competences">
+        <div class="boxed center">
+            <h2>Quelques principes de JavaScript</h2>
+            <div class="flex toColumn gap20">
+                <div class="w25 wm100 skill">
+                    <img id="myImg" src="img/JS/Selecteur.PNG" alt="Variables " class="clickable">
+                    <h3>Variables</h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img id="myImg" src="img/JS/Data.PNG" alt="Types de données" class="clickable">
+                    <h3>Types de données</h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img id="myImg" src="img/JS/Fonctions.PNG" alt="Fonctions" class="clickable">
+                    <h3>Fonctions </h3>
+                </div>
+                <div class="w25 wm100 skill">
+                    <img id="myImg" src="img/JS/Evenement.PNG" alt="Unités de mesure" class="clickable">
+                    <h3>Événements</h3>
+                </div>
+            </div>
+        </div>
+        <div class="flex gap20">
+                <div class="boxed center w25 wm100 skill2">
+                    <img id="myImg" src="img/JS/Structure.PNG" alt="Flexbox" class="clickable">
+                    <h3>Structures de contrôle</h3>
+                </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content modal-content-centered"></div>
+            <img class="modal-content" id="img01">
+            <div id="caption" class="modal-caption"></div>
+    </div>
+
+<!-- Skills -->
+
+<div class="product-columns center dark " id="product">
+    <div class="devis-column">
+        <h5>Les bases de CSS</h5>
+        <ul>
+            <li class="material-symbols-outlined icon">forum</li><br>
+            <li>Déclaration de variables :En JavaScript, vous pouvez déclarer des variables avec let, const, ou var. <h1></li>
+            <li>Commentaires : Les commentaires en JavaScript peuvent être sur une seule ligne avec // ou sur plusieurs lignes avec /* */.</li>
+            <li>Points-virgules : Les instructions en JavaScript se terminent généralement par un point-virgule (;), bien que cela ne soit pas strictement nécessaire dans tous les cas.</li>
+            <li>Blocs de code : Les blocs de code en JavaScript sont délimités par des accolades { }.</li>
+            <li>Sensibilité à la casse : JavaScript est sensible à la casse, ce qui signifie que variable et Variable sont considérées comme deux variables distinctes.</li><br>
+            <li> Espacement : L'espacement (ou indentation) est une pratique courante pour rendre le code plus lisible, mais il n'est pas requis par JavaScript.</li><br>
+        </ul>
+    </div>
+</div>
+<!-- Carousel -->
+
+<div class="section" id="realisations">
+    <div class="boxed center">
+        <h2>Realisation</h2>
+        <div class="flex wrap gap20 space-between center">
+            <div class="w32 wm47 realisation">
+                <img src="img/JS/exemple1.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+            <div class="w32 wm47 realisation">
+                <img src="img/JS/exemple2.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+            <div class="w32 wm47 realisation">
+                <img src="img/JS/exemple3.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+            <div class="w32 wm47 realisation">
+                <img src="img/JS/exemple4.PNG" class="gallery-image" data-carousel="carousel1">
+                <h4>Exemple simple</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="carousel1" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/JS/exemple1.PNG" alt="Exemple">
+        </div>
+    </div>
+</div>
+
+<div id="carousel2" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/JS/exemple2.PNG" alt="Exemple">
+        </div>
+    </div>
+</div>
+
+<div id="carousel3" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/JS/exemple3.PNG" alt="Exemple">
+        </div>
+    </div>
+</div>
+
+<div id="carousel4" class="carousel">
+    <span class="close">&times;</span>
+    <div class="carousel-content">
+        <div class="carousel-images-wrapper">
+            <img class="carousel-image" src="img/JS/exemple4.PNG" alt="Exemple">
+        </div>
+    </div>
+</div>
+
+<!-- Carousel -->
+
+
+<!-- Product -->
+
+    <div class="product-columns center dark" id="product">
+        <div class="analyse-column">
+            <h5>Quizz</h5>
+            <ul>
+                <li class="material-symbols-outlined icon">clinical_notes</li><br>
+                <li>C'est l'heure du quizz !</li>
+                <li>Cela sert juste a situer votre niveau</li><br>
+                <li><a href="quizzjs.html"><button class="contact-button" type="button">Quizz</button></a></li>
+            </ul>
+        </div>
+    </div>
+
+<!-- Product -->
+
+<!-- Footer D -->
+
+    <footer>
+        <div class="footer-columns center " id="contact">
+            <div class="useful-links-column dark">
+                <h5>Liens Utiles</h5>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#a-propos">À propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#realisations">Réalisations</a></li>
+                    <li><a href="#product">Produit</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+    </footer>
+
+<!-- Footer D-->
+
+    <script src="js/app.js"></script>
+</body>
+</html>
